@@ -99,7 +99,7 @@ function App() {
         "90",
         "100",
       ])
-      .name("size")
+      .name("fillRectSize")
       .onChange(() => {
         console.log("[guiObject]", guiObject);
         drawImage(
